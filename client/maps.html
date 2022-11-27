@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>MAPS</title>
-        <link rel="stylesheet" href="maps.css">
-        <script src="map.js"></script>
-    </head>
-    <body onload="intiApplication()">
-        <h1>map</h1>
-        <div id="myMapID"></div>
+ 
+  <head>
+    <meta charset="UTF-8">
+    <title>Danny Map mania</title>
+    <link rel="stylesheet" href="map.css">
+    <script src="map.js"></script>
+  </head>
 
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6EVc8u7uz1QWf4l0ZAWJtdpdnYbGkhog&callback=initMap&v=weekly"
-            async defer>
-        </script>
+  <body onload= "initstart()"> 
+    <h1>Danny boy game</h1> 
+    <p>Getting started</p>
+    <p>Welcome to Danny boy game! if its your first time please click on the locations that Danny want to travel. to in order to win</p>
+    Hint: <input id="lol2-id" type="text" value="" size="120" disabled><br><br>
+    Score: <input id="lol-id" type="text" value="" size="2" disabled><br><br> 
+  
+    <div id="ID"></div>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJzK0NMdOCF9iZ4Yi6FeifvXHvmgFaVok &callback=initMap&v=weekly"
+    async defer>
+    </script>
+  
 
-    </body>
+  </body>
+
 </html>
-
-
-

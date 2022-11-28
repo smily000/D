@@ -56,8 +56,6 @@ app.get("/read", function(request, response) {
 
 
 
-
-
 app.listen(port, function() {
 	console.log("Server is running at http://localhost:3000/")
 })
